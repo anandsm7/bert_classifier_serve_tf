@@ -1,0 +1,12 @@
+MAX_LEN = 21
+MAX_SEQ_LEN = 150
+SPLIT = 5
+EPOCHS = 5
+BATCH_SIZE=16
+OUTPUT_PATH = "../output/"
+SAVE_WEIGHTS_PATH = "../output/checkpoints/my_checkpoint"
+TRAINING_FILE = "../input/augment_daily.csv"
+RESULT_CSV = "../input/processed.csv"
+BERT_CKPT_DIR = "../input/uncased_L-12_H-768_A-12"
+BERT_CKPT_FILE = "../input/uncased_L-12_H-768_A-12/bert_model.ckpt"
+BERT_CONFIG_FILE = "../input/uncased_L-12_H-768_A-12/bert_config.json"
